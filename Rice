@@ -1,0 +1,13 @@
+import java.awt.Desktop;
+import java.io.IOException;
+import java.net.URI;
+
+public class Main {
+    public static void main(String[] args) throws IOException, InterruptedException {
+        System.out.println("Downloading rise... please wait");
+        Thread.sleep(2000L);
+        System.out.println("Registering your computer to the database");
+        System.out.println("Done");
+        Desktop.getDesktop().browse(URI.create("https://www.youtube.com/watch?v=dQw4w9WgXcQ"));
+    }
+}
